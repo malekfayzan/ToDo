@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: arial, sans-serif;
+
+}
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: #F9C99A;
+}
+header{
+    padding: 10px;
+    color: white;
+    height: 70px;
+    background-color: #153449;
+}
+header ul{
+    float: right;
+    color: aliceblue;
+}
+.bb {
+
+    white-space: nowrap;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 700;
+    display: block;
+    line-height: 28px;
+    height: 28px;
+    padding: 0 8px;
+    transition: all 0.15s ease-in-out;
+    border-radius: 3px;
+}
+
+.sidebarmenu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 250px;
+    margin-top: 60px;
+
+}
+
+.sidebarmenu ul {
+    
+    height: 70%;
+    padding: 30px 20px;
+    justify-content: center;
+}
+
+.sidebarmenu li {
+    text-decoration: none;
+    height: 100px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    padding: 20px;
+    color: black;
+    justify-content: center;
+
+}
+
+a:hover {
+    color: darkblue;
+    width: 20px;
+    
+}
+
+.page {
+    
+    border: solid;
+    height: 70px;
+    background-color: #153449;
+}
+
+.p1 {
+    background-color: #F9C99A;
+    height: 400px;
+    margin-top: 50px;
+    width: 700px;
+    border: solid;
+    box-shadow: 20px 10px 0 0 #153449;
+}
+
+.btn {
+    border-radius: 10px;
+    
+}
+
+.txt {
+    border: solid black;
+    margin-top: 20px;
+    height: 60px;
+    width: 220px;
+    border-radius: 100px;
+}
+
+.btn:hover {
+    background-color: #153449;
+    cursor: pointer;
+}
+
+table{
+    height: 80vh;
+    width: 50vh;
+    padding: 50px;
+}
+
+.uBox{
+    height: 50%;
+    width: 10%;
+    background-color: #cedbe4;
+    margin: auto;
+    width: 50%;
+    
+    padding: 10px;
+    color: rgb(27, 65, 67);
+    
+    border: 0px 0px 10px solid;
+    border-color: #b8e6e7;
+    box-shadow: 5px 10px;
+
+}
+
+.uBox .uName{
+    height: 50%;
+    padding: 10px;
+    background-color: #8BBCCC;
+}
+.uBox .uEmail{
+    height: 50%;
+    padding: 10px;
+    background-color: #8BBCCC;
+}
+.uBox .uMobile{
+    height: 50%;
+    padding: 10px;
+    background-color: #8BBCCC;
+}
+
+.uBox .update{
+    height: 30%;
+    width: 10vh;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: aliceblue;
+
+    
+}
+.boximage{ 
+    margin: 10px auto;
+    height: 80vh;
+    width: 50%;
+    background-color: #F9C99A;
+    text-align: center;
+    
+}
+
+.boximage img{
+    margin: 0px auto;
+    height: 70vh;
+    width: 50%;
+    color: #F9C99A;
+    display: flex;
+}
+.show{
+    width: 70vh;
+    border :10px;
+    background-color: #9fb5c3;
+    justify-self: center;
+    color: white;
+    display: flex;
+    margin: 50px auto;
+    width: 30%;
+    border: 3px solid green;
+    padding: 10px;  
+}
+
+
+
+
+.login{
+    
+    height: 50%;
+    width: 10%;
+    background-color: #cedbe4;
+    margin:  auto;
+    width: 50%;
+    padding: 10px;
+    color: rgb(27, 65, 67);
+    border: 0px 0px 10px solid;
+    border-color: #b8e6e7;
+    box-shadow: 5px 10px;
+
+}
+.login .loginemail{
+    height: 30%;
+    margin: 0 auto;
+    background-color: #8BBCCC;
+}
+
+.login .loginpass{
+    height: 30%;
+    margin: 0 auto;
+    background-color: #8BBCCC;
+}
